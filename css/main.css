@@ -1,0 +1,26 @@
+.ligne{
+    display: flex;
+    flex-flow: row;
+    font-size: 300%;
+
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border: 1px solid black;
+height: 100px;
+width: 100px;
+margin: 1%;
+border-radius: 20%;
+background-color: yellowgreen;
+}
+.picture{
+    opacity:0 ;
+  
+}
+.counter{
+    display: flex;
+    justify-content: center;
+}
