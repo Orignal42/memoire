@@ -15,10 +15,13 @@ squares.forEach((square) =>{
         tab.push(e.target)
     
 
-        if ( e.target.getAttribute('data-cell')===tab[0].getAttribute('data-cell')){
-          tab[];
+        if ( countClick==2 && tab[1]==tab[0]){
+          tab[""];
         }
-        else {e.target.style.opacity=0}
+        else {
+          e.target.style.opacity=1
+          tab[""];
+        }
             
                 
               

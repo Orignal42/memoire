@@ -1,3 +1,10 @@
+body{
+    display: flex;   
+    justify-content: center; 
+    flex-flow: column;
+    margin: 20%;
+}
+
 .ligne{
     display: flex;
     flex-flow: row;
